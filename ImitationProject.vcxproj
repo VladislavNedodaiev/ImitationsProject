@@ -115,6 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ImitationProject.cpp" />
+    <ClCompile Include="Imitations.cpp" />
+    <ClCompile Include="KeyboardButton.cpp" />
+    <ClCompile Include="MouseButton.cpp" />
+    <ClCompile Include="MouseMove.cpp" />
+    <ClCompile Include="Wait.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imitation.h" />
+    <ClInclude Include="ImitationProject.h" />
+    <ClInclude Include="Imitations.h" />
+    <ClInclude Include="KeyboardButton.h" />
+    <ClInclude Include="MouseButton.h" />
+    <ClInclude Include="MouseMove.h" />
+    <ClInclude Include="Wait.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

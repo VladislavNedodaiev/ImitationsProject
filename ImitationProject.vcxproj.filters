@@ -13,5 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\imp">
+      <UniqueIdentifier>{0e211ed8-fb43-49c1-9b05-c97ab663259c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imp">
+      <UniqueIdentifier>{f3ceff7a-3687-4370-91d1-7b992e1c7184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imp\Imitations">
+      <UniqueIdentifier>{bdc751b8-8b9f-4697-95e6-a10b9beeb231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imp\Imitations">
+      <UniqueIdentifier>{85cd6214-407a-484a-bd82-c5c3cc36d685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imp\Imitations\Mouse">
+      <UniqueIdentifier>{3d88f594-eb92-4874-a051-ceed3e76d01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imp\Imitations\Keyboard">
+      <UniqueIdentifier>{a032fdc7-61a6-4df9-a225-611360aff087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imp\Imitations\Keyboard">
+      <UniqueIdentifier>{5384c850-d3ea-4541-959a-7c209a44651e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imp\Imitations\Mouse">
+      <UniqueIdentifier>{1369225a-0517-4e88-8770-998f31f3f7b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImitationProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Imitations.cpp">
+      <Filter>Source Files\imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Wait.cpp">
+      <Filter>Source Files\imp\Imitations</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMove.cpp">
+      <Filter>Source Files\imp\Imitations\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseButton.cpp">
+      <Filter>Source Files\imp\Imitations\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardButton.cpp">
+      <Filter>Source Files\imp\Imitations\Keyboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImitationProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imitations.h">
+      <Filter>Header Files\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Wait.h">
+      <Filter>Header Files\imp\Imitations</Filter>
+    </ClInclude>
+    <ClInclude Include="Imitation.h">
+      <Filter>Header Files\imp\Imitations</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMove.h">
+      <Filter>Header Files\imp\Imitations\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseButton.h">
+      <Filter>Header Files\imp\Imitations\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardButton.h">
+      <Filter>Header Files\imp\Imitations\Keyboard</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
